@@ -20,7 +20,7 @@ class CashRegister
   
   def items(title, price, quantity = 1)
     item_array = []
-    item_array << title when add_item(title, price, quantity = 1)
+    item_array << title if self.add_item(title, price, quantity = 1)
   end
   
 end
