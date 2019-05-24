@@ -18,9 +18,9 @@ class CashRegister
     end
   end
   
-  def items(title, price, quantity = 1)
+  def items(title)
     item_array = []
-    item_array << title if self.add_item(title, price, quantity = 1)
+    item_array << title if self.new
   end
   
 end
