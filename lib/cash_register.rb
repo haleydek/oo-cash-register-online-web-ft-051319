@@ -19,9 +19,7 @@ class CashRegister
   end
   
   def items(title)
-    added_items = []
-    added_items << title
-    added_items
+    
   end
   
 end
